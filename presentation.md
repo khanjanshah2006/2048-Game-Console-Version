@@ -86,24 +86,28 @@ For Running the Game, Copy
 
 ### Game Class
 - `initilizeGame()` → Sets the board to all zeros and spawns two random tiles
-- `move(direction)` → Handles the main title movement and mearging logic
+- `actionUp();`   →  perform Action UP in Gameplay and merging logic
+-  `actionDown();` →  perform Action DOWN in Gameplay and merging logic
+- `actionLeft();`  →  perform Action LEFT in Gameplay and merging logic
+-  `actionRight();`  →  perform Action RIGHT in Gameplay 
 - `fillRandomTile()` → Spawns a 2 or 4 tile at a random empty location
-- `undoMove` → Reverts the board to its last state using a stack
-- `isGameOver()` → Returns true if no more valid move exists
-- `isGameWon()` → Returns true if a tile with 2048 is found
-- `drawBoard()` → Prints the board with borders and colored tiles
-- `saveGameState()` → Saves the current board state for Undo
-- `resetGame()` → Clears the board and resets score
+- `uploadWinnerData()` → uploads winners data to file
+- `checkGameOver()` → Returns true if no more valid move exists
+- `CheckWin()` → Returns true if a tile with 2048 is found
+- `showGamePlayPanel()` → Prints the board with borders 
+- `showHighScoreTable()` → shows High Score Table
+- `resetGame()` → resets game for new Play
 
 ### Player Class
-- `getScore()` → Returns current score
-- `addScore(value)` → Adds merged value to the player's score
-- `updateHighScore()` → Saves new high score if exceeded
+- `getPlayerScore()` → Returns current score
+- ` addToPlayerScore` → Adds merged value to the player's score
+- `setPlayerName()` → Sets player name
+- `getPlayerName();` → Gets player name
 
 ### Utilities
 - `printMessageCenter(text)` → Prints a message in the centre of the screen
 - `delay(ms)` → Introduces a delay for smoother transitions
-- `clearScreen()` → Clears the console output
+- `getRandomNumber(int,int)` → generate random integer within range
 
 ## 🤔Additional features that could be added 
 - **🔢 Move Counter**
