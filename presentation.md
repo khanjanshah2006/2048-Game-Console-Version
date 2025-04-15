@@ -114,6 +114,26 @@ For Running the Game, Copy
 - `delay(ms)` → Introduces a delay for smoother transitions
 - `clearScreen()` → Clears the console output
 
+## 🤔Additional features that could be added 
+- **🔢 Move Counter**
+    - ✅Description : Counts the number of moves the player has made so far.
+    - 🧠 How it Works : 
+        - Start a counter at 0
+        - Increment it each time a valid move is made
+- **🎮 Game Save & Load**
+    - ✅Description : Lets players save their current progress and load it later—super useful for long sessions!
+    - 🧠 How It Works:
+        - Save the current board, score, and maybe highScore to a file (like savegame.txt).
+        - Load it back when the game starts (or when the player presses L).
+
+- 🔁 Undo Move
+    - ✅ Description: Lets the player revert the game to the previous state before their last move—very useful if they make a mistake.
+    - 🧠 How It Works:
+        - Before every move, save a copy of:
+            - The board (2D array)
+            - The score
+        - If the player presses U (for undo), restore those saved values.
+
 ## 📁 Code Structure
 **2048-Game-Console-Version/**  
 │── bin/    
