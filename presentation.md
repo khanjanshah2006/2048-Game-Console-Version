@@ -15,14 +15,13 @@ A classic 2048 puzzle game implemented using C++ with real-time console renderin
 - Prerequisite
 
 ## 📄 Project Description
-This is a console-based implementation of the famous puzzle game *2048, developed entirely in C++. The game board is a 4x4 grid where the player moves numbered tiles. When two tiles with the same number collide during a move, they merge into a new tile with their sum. The goal is to create a tile with the number **2048*. The game also features real-time score tracking, undo functionality, and high score storage.
+This is a console-based implementation of the famous puzzle game *2048, developed entirely in C++. The game board is a 4x4 grid where the player moves numbered tiles. When two tiles with the same number collide during a move, they merge into a new tile with their sum. The goal is to create a tile with the number **2048*. The game also features real-time score tracking,and high score storage.
 
 ## 🚀 Key Features
 - **Classic 2048 Gameplay**: Slide, combine, and grow your tiles to hit the 2048 goal
 - **Real-Time Console Rendering**: Efficient and clean updates without flickering
-- **Undo Functionality**: Go back to your previous move if you make a mistake
 - **High Score Tracking**: Keeps your best score saved across sessions
-- **Cross-Platform Compatibility**: Works on Windows and can be adapted for Linux
+- **Platform Compatibility**: Works on Windows
 - **Color Output Support**: Visual appeal using color formatting
 - **Restart Option**: Restart any time and try again
 
@@ -45,21 +44,14 @@ For Running the Game, Copy
 ```
 
 ## 🎮 Gameplay Controls
-- **Arrow Keys :**
-    - `↑`(Up Arrow) → Move Tiles Up
-    - `←`(Left Arrow) → Move Tiles Down
-    - `↓`(Down Arrow) → Move Tiles Left
-    - `→`(Right Arrow) → Move Tiles Right
 - **WASD Keys (Alternative Controls) :**
     - `W`→ Move Up
     - `A`→ Move Left
     - `S`→ Move Down
     - `D`→ Move Right
 - **Other Controls :**
-    - `U`→ Undo Last Move
     - `X`→ Exit the Game
-    - `R`→ Restart the Game
-
+    
 ## 🕹 How To Play
 
 - **Objective :** Merge matching tiles on a 4x4 board to create a tile with the number 2048.
@@ -78,7 +70,6 @@ For Running the Game, Copy
 ## 📊 Data Structure Analysis
 
 - **2D Array (int board[4][4]) :** Represents the 4x4 game board
-- **Stack (Previous Board State) :** Stores history for the undo feature
 - **Text File (highscore_data.txt) :** Stores the highest score achieved
 - **Enums / Constants :** Used for direction mapping and status flags
 
@@ -151,7 +142,7 @@ For Running the Game, Copy
 
 ## ✅ Prerequisites
 - A C++ compiler (e.g., g++, clang++)
-- Windows OS (or minor modifications for Linux)
+- Windows OS
 - Console with ANSI escape code support (for colored output)
 
 🎉 Thanks for checking out this investigation project! Hope you enjoy playing! 🚀
