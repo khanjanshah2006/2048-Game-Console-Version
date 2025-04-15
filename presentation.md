@@ -87,7 +87,7 @@ For Running the Game, Copy
 ### Game Class
 - `initilizeGame()` → Sets the board to all zeros and spawns two random tiles
 - `move(direction)` → Handles the main title movement and mearging logic
-- `generateNewTile()` → Spawns a 2 or 4 tile at a random empty location
+- `fillRandomTile()` → Spawns a 2 or 4 tile at a random empty location
 - `undoMove` → Reverts the board to its last state using a stack
 - `isGameOver()` → Returns true if no more valid move exists
 - `isGameWon()` → Returns true if a tile with 2048 is found
