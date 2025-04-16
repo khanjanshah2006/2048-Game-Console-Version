@@ -149,4 +149,9 @@ For Running the Game, Copy
 - Windows OS
 - Console with ANSI escape code support (for colored output)
 
+## Main Menu Image
+![Image](https://github.com/user-attachments/assets/8a943eeb-28d2-4a0f-b8e1-55509275fc22)
+
+## Gameplay Video
+https://github.com/user-attachments/assets/199bf379-b957-46fa-b5a4-8c978980787a
 🎉 Thanks for checking out this investigation project! Hope you enjoy playing! 🚀
